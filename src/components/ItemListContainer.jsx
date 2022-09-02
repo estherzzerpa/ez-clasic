@@ -5,7 +5,12 @@ import React from 'react'
 
 const ItemListContainer = ({greeting}) => {
   return (
-    <div>Hola bienvenido {greeting}</div>
+    <div>
+
+     <h2>Hola bienvenido {greeting}</h2> 
+
+
+    </div>
   )
 }
 
