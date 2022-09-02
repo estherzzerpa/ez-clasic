@@ -1,10 +1,16 @@
 import './App.css';
-import Header from './Header';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
+
+  const greeting = prompt("Hola, escribe tu nombre")
+
   return (
     <div className="App">
-      <Header />
+      <NavBar />
+      <ItemListContainer greeting={greeting} />
+
     </div>
   );
 }
