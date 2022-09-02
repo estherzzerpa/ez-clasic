@@ -7,9 +7,9 @@ const NavBar = () => {
 
     <div className="text-white  font-fontPrincipal">
 
-        <header className="flex h-16  justify-around items-center shadow-sm bg-yellow-900 font-light transition-color duration-100  ">
+        <header className="flex h-16  justify-around items-center shadow-md bg-yellow-900 font-light transition-color duration-100 fixed w-screen">
 
-          <div className="brand"> LOTO </div>
+          <div className="brand underline"> LOTO </div>
           <ul className="flex">
 
             <a href="#"><li className="px-6 hover:text-yellow-600 transition-all duration-150">Home</li></a>

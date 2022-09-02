@@ -6,6 +6,7 @@ function App() {
 
   const nombre = prompt("Hola, escribe tu nombre")
 
+
   return (
     <div className="App">
       <NavBar />
@@ -13,6 +14,8 @@ function App() {
 
     </div>
   );
+
+
 }
 
 export default App;
