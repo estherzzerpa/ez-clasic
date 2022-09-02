@@ -7,7 +7,7 @@ const ItemListContainer = ({greeting}) => {
   return (
     <div>
 
-     <h2>Hola bienvenido {greeting}</h2> 
+     <h2 className='text-8xl'>Hola bienvenido {greeting}</h2> 
 
 
     </div>
