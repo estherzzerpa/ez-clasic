@@ -4,12 +4,12 @@ import ItemListContainer from './components/ItemListContainer';
 
 function App() {
 
-  const greeting = prompt("Hola, escribe tu nombre")
+  const nombre = prompt("Hola, escribe tu nombre")
 
   return (
     <div className="App">
       <NavBar />
-      <ItemListContainer greeting={greeting} />
+      <ItemListContainer greeting={nombre} />
 
     </div>
   );
