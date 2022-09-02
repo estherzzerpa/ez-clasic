@@ -1,5 +1,5 @@
 import React from 'react'
-import bag from '../assets/icon/shopping-bag.webp'
+import bag from '../assets/icon/bag-white-heart.png'
 
 const CartWidget = () => {
 
