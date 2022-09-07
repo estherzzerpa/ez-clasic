@@ -1,21 +1,18 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/header/NavBar';
+import ItemListContainer from './components/main/ItemListContainer';
 
 function App() {
 
-  const nombre = prompt("Hola, escribe tu nombre")
-
+  const descuento = "20% OFF"
 
   return (
-    <div className="App">
+    <div className="App h-[100vh]">
       <NavBar />
-      <ItemListContainer greeting={nombre} />
-
+      <ItemListContainer greeting={descuento} />
     </div>
+
   );
-
-
 }
 
 export default App;
