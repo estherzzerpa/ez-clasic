@@ -19,7 +19,6 @@ const NavBar = () => {
             <a href="#"><li className="px-6 hover:text-[#cf6f08ef] transition-all duration-150">loto Under</li></a> 
             <a href="#"><li className="px-6 hover:text-[#cf6f08ef] transition-all duration-150">OUFITS</li></a>
 
-
           </ul>
 
             <CartWidget />

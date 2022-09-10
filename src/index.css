@@ -32,3 +32,38 @@ body::-webkit-scrollbar-thumb{
 .container_main::-webkit-scrollbar-thumb{
     background-color: rgb(128, 74, 33);
 }
+
+.btn {
+  width: 6.5em;
+  height: 2.3em;
+  background-color: rgb(255, 255, 255);
+  color: rgb(89, 58, 43);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+ }
+ 
+ button:hover {
+  color: rgb(255, 255, 255);
+ }
+ 
+ button:after {
+  content: "";
+  background: rgb(89, 58, 43);
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }

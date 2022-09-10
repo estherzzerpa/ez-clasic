@@ -19,7 +19,7 @@ const ItemCount = ({onAdd, stock, count, setCount}) => {
 
 
   return (
-     <div className='bg-ochre-100 flex flex-wrap w-[100%] h-[120%] justify-center overflow-hidden'>
+    <div className='bg-ochre-100 flex flex-wrap w-[100%] h-[120%] justify-center overflow-hidden'>
 
         <div className="card w-[25%] h-[30%] min-w-[240px] transition-all m-4 hover:shadow-xl">
 
